@@ -94,6 +94,7 @@ function removeFromCart(item) {
   if (cart[i].itemName != item) {
     return `That item is not in your cart.`;
   }
+  
   for (var i = 0; i < cart.length; i++) {
     if (cart[i].itemName === item) {
       cart.splice(i, 1);
