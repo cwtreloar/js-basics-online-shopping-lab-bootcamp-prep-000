@@ -96,6 +96,9 @@ function removeFromCart(item) {
       cart.splice(i, 1);
       return cart;
     }
+  else {
+    return `That item is not in your cart.`;
+  }
   }
 /*
   if (cart.includes(item) === false){
