@@ -97,9 +97,7 @@ function removeFromCart(item) {
       return cart;
     }
   }
-  if (cart.includes(item) === false){
-    return `That item is not in your cart.`; 
-  }
+  return `That item is not in your cart.`; 
 /*
   if (cart.includes(item) === false){
     return `That item is not in your cart.`; 
