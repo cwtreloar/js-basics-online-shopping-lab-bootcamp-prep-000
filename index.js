@@ -91,7 +91,6 @@ function total() {
 }
 
 function removeFromCart(item) {
-<<<<<<< HEAD
   if (cart.includes(item) === false){
     return `That item is not in your cart.`; 
   }
@@ -100,27 +99,6 @@ function removeFromCart(item) {
     cart.splice(cartIndex, 1);
     return cart;
   }
-  /*
-  else {
-    return `That item is not in your cart.`;
-  }
-  for (let i = 0; i < cart.length; i++) {
-    if (item === cart[i]) {
-=======
-  let itemName = item;
-  for (let i = 0; i < cart.length; i++) {
-    if (itemName === cart[i].itemName) {
->>>>>>> e64f04adddfe07829d9ee231afda45c7f49b3b8c
-      return `yes`;
-    }
-    else {
-      return `NO`;
-    }
-  }
-<<<<<<< HEAD
-  */
-=======
->>>>>>> e64f04adddfe07829d9ee231afda45c7f49b3b8c
 }
 
 function placeOrder(cardNumber) {
