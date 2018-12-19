@@ -100,6 +100,9 @@ function removeFromCart(item) {
       cart.splice(i, 1);
       return cart;
     }
+  else {
+    
+  }
   }
 /*
   if (cart.includes(item) === false){
